@@ -1,0 +1,120 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  margin:  4%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 18px;
+  margin-bottom: 40px;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer {
+  color: white;
+}
+
+
+/* Media query for tablets (landscape) */
+@media (max-width: 1024px) {
+  #level-title {
+    font-size: 2.5rem;
+    margin: 10%;
+  }
+
+  .container {
+    width: 70%;
+  }
+
+  .btn {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+  }
+}
+
+/* Media query for smartphones */
+@media (max-width: 768px) {
+  #level-title {
+    font-size: 2rem;
+    margin: 10%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .btn {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    margin-top: 100px;
+  }
+}
+
+/* Media query for smaller devices (e.g., very small smartphones) */
+@media (max-width: 480px) {
+  #level-title {
+    font-size: 1.5rem;
+    margin: 15%;
+  }
+
+  .btn {
+    height: 80px;
+    width: 80px;
+    margin: 8px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+

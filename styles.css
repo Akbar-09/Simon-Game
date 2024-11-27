@@ -94,7 +94,7 @@ footer {
   }
 
   footer {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 100px;
   }
 }
@@ -102,18 +102,18 @@ footer {
 /* Media query for smaller devices (e.g., very small smartphones) */
 @media (max-width: 480px) {
   #level-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 15%;
   }
 
   .btn {
-    height: 150px;
-    width: 150px;
-    margin: 20px;
+    height: 80px;
+    width: 80px;
+    margin: 8px;
   }
 
   footer {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
